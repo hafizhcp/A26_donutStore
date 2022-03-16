@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 400px;
+}
+
+.top-wrapper {
+  padding: 180px 0 30px 0;
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper h3 {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left h2 {
+  color: #f7f7f7;
+  margin-top: 20px;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  visibility: hidden;
+}
+
+.explain {
+  background-color: #fff;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+}
+
+.container-explain {
+  padding-left: 120px;
+}
+
+.explain-img {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.explain-img img {
+  height: 330px;
+  width: 400px;
+  background-size: cover;
+}
+.explain-text {
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+
+.explain-text p:first-child {
+  display: inline-block;
+  font-size: 32px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid red;
+}
+
+.explain-text p:nth-child(2) {
+  text-align: left;
+  width: 320px;
+  font-size: 18px;
+  line-height: 24px;
+  color: #b3aeb5;
+}
+
+.donut-wrapper {
+  padding-bottom: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+  border-bottom: 2px solid red;
+  display: inline-block;
+}
+
+.donut {
+  float: left;
+  width: 25%;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+footer {
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  color: #f7f7f7;
+  padding-top: 5px;
+}
+
+.container-footer {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  float: left;
+  margin-right: 40px;
+}
+
+.footer-list {
+  float: left;
+}
+
+.sosmed-icon i {
+  font-size: 15px;
+  border-radius: 50%;
+  border: solid 1px white;
+  color: rgb(238, 232, 232);
+  background-color: #343a40;
+  line-height: 1.8em;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
